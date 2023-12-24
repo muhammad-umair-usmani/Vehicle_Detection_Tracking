@@ -1,0 +1,11 @@
+.vscode/
+.ipynb_checkpoints
+
+# interpreter bytecode
+__pycache__/
+
+# experiment results videos
+trackers/
+YOLOv8/
+CBCL_StreetScenes_Dataset_reading_visulation.ipynb
+byte_track_inference.ipynb
