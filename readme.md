@@ -59,7 +59,7 @@ Finally yolov8m is trained. Below are training metrics and performance images
   <img src="./runs/detect/train/R_curve.png" width="200" />
 </p>
 <p float="left">
-  <img src="./runs/detect/train/results.png" width="600" />
+  <img src="./runs/detect/train/results.png" width="800" />
 </p>
 
 <p float="left">
