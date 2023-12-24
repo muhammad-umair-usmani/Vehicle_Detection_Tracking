@@ -42,27 +42,30 @@ The included code, which is in form of Ipython Notebook, downloads the dataset a
 The code needed to preprocess the data and train the model is available in the following notebook.
 Set the runtime to GPU and run everything.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/muhammad-umair-usmani/Human_Detection/blob/main/vehicle_dataset_preparation+yolov8_training.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/muhammad-umair-usmani/Vehicle_Detection_Tracking/blob/main/vehicle_dataset_preparation+yolov8_training.ipynb)
 
 # Yolo Weights and checkpoint to resume training
 
-The [weights](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/muhammad-umair-usmani/Human_Detection/blob/main/runs/detect/train) are also available to run using the official yolov8 code found [here](https://github.com/ultralytics/ultralytics)
+The [weights](https://github.com/muhammad-umair-usmani/Vehicle_Detection_Tracking/blob/main/runs/detect/train) are also available to run using the official yolov8 code found [here](https://github.com/ultralytics/ultralytics)
 
 you can find trained model checkpoint, tensorboard logs and weights at path "./runs/detect/train/"
 
 Finally yolov8m is trained. Below are training metrics and performance images
 
 <p float="left">
-  <img src="./runs/detect/train/confusion_matrix.png" width="400" />
-  <img src="./runs/detect/train/confusion_matrix_normalized.png" width="400" />
-</p>
-<p float="left">
   <img src="./runs/detect/train/F1_curve.png" width="200" />
   <img src="./runs/detect/train/P_curve.png" width="200" />
   <img src="./runs/detect/train/PR_curve.png" width="200" />
   <img src="./runs/detect/train/R_curve.png" width="200" />
 </p>
+<p float="left">
+  <img src="./runs/detect/train/results.png" width="600" />
+</p>
 
+<p float="left">
+  <img src="./runs/detect/train/confusion_matrix.png" width="400" />
+  <img src="./runs/detect/train/confusion_matrix_normalized.png" width="400" />
+</p>
 
 # labels correlogram
 <p float="left">
