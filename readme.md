@@ -1,4 +1,4 @@
-# Vehicle Detecction and Tracking( Yolov8 + SORT )
+# Vehicle Detection and Tracking( Yolov8 + SORT )
 
 In this repository I have trained yolov8m on KITTI Dataset and urban Traffic Surveillance (UTS) dataset for vehicle Detection and used SORT Tracking algorithm for tracking vehicles
 
