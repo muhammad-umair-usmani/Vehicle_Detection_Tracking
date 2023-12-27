@@ -4,7 +4,7 @@ In this repository I have trained yolov8m on KITTI Dataset and urban Traffic Sur
 
 <details>
 
-<summary> YOLOv8 Model Training on Custom Dataset </summary>
+<summary><b> YOLOv8 Model Training on Custom Dataset </b></summary>
 
 ## Datasets Introduction   
 
@@ -85,7 +85,7 @@ bboxes = np.array(result.boxes.xywh)
 <details open>
 <summary> <b>Tracking</b></summary>
 
-## Vehicle Tracking 
+## Vehicle Tracking and counting
 
 Custom object detection architecture
 
@@ -98,7 +98,7 @@ $ python Track.py --video_path <"video input path"> --output <"video output path
 ```
 
 
-To obtain vehicle counting results on distinct runways, utilize the "Detection_tracking_inference.ipynb" file.
+<b>To obtain vehicle counting results on distinct runways, utilize the "Detection_tracking_inference.ipynb" file.</b>
 
 # Detection and Tracking results
 [![Vehicle Detection and Counting](clipped_joined_video.gif)](https://youtu.be/AisUbJo4vYQ)
