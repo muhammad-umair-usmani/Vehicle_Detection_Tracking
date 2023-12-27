@@ -4,7 +4,8 @@ In this repository I have trained yolov8m on KITTI Dataset and urban Traffic Sur
 
 <details>
 
-# YOLOv8 Model Training on Custom Dataset
+## YOLOv8 Model Training on Custom Dataset
+
 <summary> Datasets Introduction   </summary>
 
 ## KITTI Dataset
@@ -18,7 +19,7 @@ Kitti datsets is captured by driving around the mid-size city of Karlsruhe, in r
 
 The Urban Traffic Surveillance (UTS) dataset is collected with six videos which were captured from different viewpoints and illumination conditions. All the vehicles are annotated with bounding box, viewpoint, type and color. 
 
-<summary> Training and Dataset Preparation </summary>
+<summary> Yolov5m Training and Dataset Preparation </summary>
 
 The included code, which is in form of Ipython Notebook, downloads the dataset and perform processing.
 
