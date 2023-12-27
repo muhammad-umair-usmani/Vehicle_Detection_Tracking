@@ -6,22 +6,20 @@ In this repository I have trained yolov8m on KITTI Dataset and urban Traffic Sur
 
 <summary> YOLOv8 Model Training on Custom Dataset </summary>
 
- ## Datasets Introduction   
+## Datasets Introduction   
 
-KITTI Dataset
+<b>KITTI Dataset</b>
 
 KITTI is 2D object detection and orientation estimation benchmark Dataset; it consists of 7481 training images and 7518 testing images. The benchmark uses 2D bounding box overlap to compute precision-recall curves for detection and computes orientation similarity to evaluate the orientation estimates in bird's eye view.
 Kitti datsets is captured by driving around the mid-size city of Karlsruhe, in rural areas and on highways. Up to 15 cars and 30 pedestrians are visible per image.
 
 ![image](./runs/kitti_2d.png)
 
-## Urban Traffic Surveillance (UTS) Dataset
+<b>Urban Traffic Surveillance (UTS) Dataset</b>
 
 The Urban Traffic Surveillance (UTS) dataset is collected with six videos which were captured from different viewpoints and illumination conditions. All the vehicles are annotated with bounding box, viewpoint, type and color. 
 
-## Yolov5m Training and Dataset Preparation
-
-<!-- <summary> Yolov5m Training and Dataset Preparation </summary> -->
+## Yolov8m Training and Dataset Preparation
 
 The included code, which is in form of Ipython Notebook, downloads the dataset and perform processing.
 
@@ -31,13 +29,13 @@ Set the runtime to GPU and run everything.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/muhammad-umair-usmani/Vehicle_Detection_Tracking/blob/main/vehicle_dataset_preparation+yolov8_training.ipynb)
 
-## Yolo Weights and checkpoint to resume training
+## Yolov8m Weights and checkpoint to resume training
 
 The [weights](https://github.com/muhammad-umair-usmani/Vehicle_Detection_Tracking/blob/main/runs/detect/train) are also available to run using the official yolov8 code found [here](https://github.com/ultralytics/ultralytics)
 
 
 
-you can find trained model checkpoint, tensorboard logs and weights at path "./runs/detect/train/"
+<b>you can find trained model checkpoint, tensorboard logs and weights at path "./runs/detect/train/"</b>
 
 Finally yolov8m is trained. Below are training metrics and performance images
 
@@ -66,7 +64,11 @@ Finally yolov8m is trained. Below are training metrics and performance images
 ![image](./runs/detect/train/train_batch21782.jpg)
 ![image](./runs/detect/train/val_batch2_pred.jpg)
 
-<summary>Inference </summary>
+</details>
+
+<details>
+
+<summary><b>Inference</b></summary>
 
 ```python
 
@@ -77,10 +79,11 @@ result = model.predict("path to img")[0]
 bboxes = np.array(result.boxes.xywh)
 
 ```
+
 </details>
 
 <details open>
-<summary> Tracking</summary>
+<summary> <b>Tracking</b></summary>
 
 ## Vehicle Tracking 
 
