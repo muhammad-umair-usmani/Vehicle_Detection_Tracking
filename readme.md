@@ -4,11 +4,11 @@ In this repository I have trained yolov8m on KITTI Dataset and urban Traffic Sur
 
 <details>
 
-## YOLOv8 Model Training on Custom Dataset
+<summary> YOLOv8 Model Training on Custom Dataset </summary>
 
-<summary> Datasets Introduction   </summary>
+ ## Datasets Introduction   
 
-## KITTI Dataset
+KITTI Dataset
 
 KITTI is 2D object detection and orientation estimation benchmark Dataset; it consists of 7481 training images and 7518 testing images. The benchmark uses 2D bounding box overlap to compute precision-recall curves for detection and computes orientation similarity to evaluate the orientation estimates in bird's eye view.
 Kitti datsets is captured by driving around the mid-size city of Karlsruhe, in rural areas and on highways. Up to 15 cars and 30 pedestrians are visible per image.
@@ -19,7 +19,9 @@ Kitti datsets is captured by driving around the mid-size city of Karlsruhe, in r
 
 The Urban Traffic Surveillance (UTS) dataset is collected with six videos which were captured from different viewpoints and illumination conditions. All the vehicles are annotated with bounding box, viewpoint, type and color. 
 
-<summary> Yolov5m Training and Dataset Preparation </summary>
+## Yolov5m Training and Dataset Preparation
+
+<!-- <summary> Yolov5m Training and Dataset Preparation </summary> -->
 
 The included code, which is in form of Ipython Notebook, downloads the dataset and perform processing.
 
@@ -76,6 +78,7 @@ bboxes = np.array(result.boxes.xywh)
 
 ```
 </details>
+
 <details open>
 <summary> Tracking</summary>
 
