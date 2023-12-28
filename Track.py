@@ -81,7 +81,7 @@ def parse_args():
 if __name__ == '__main__':
     args = parse_args()
     display = args.display
-    # Yolo model loading
+    # Yolov8m model loading
     model = YOLO(args.model_path)
     # Tracker Initialization
     sort_tracker = Sort(max_age=args.max_age,
