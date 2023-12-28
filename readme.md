@@ -91,14 +91,13 @@ Custom object detection architecture
 
 The trackers provided in this repo can be used with other object detectors than Yolov8.
 
-For tracking please run below file
+For tracking run below file
 
 ```bash
 $ python Track.py --video_path <"video input path"> --output <"video output path">\ --model_path <"yolov8m weights">
 ```
 
-
-<b>To obtain vehicle counting results on distinct runways, utilize the "Detection_tracking_inference.ipynb" file.</b>
+### For vehicle Detection and counting example results on distinct runways, utilize [Notebook File](https://github.com/muhammad-umair-usmani/Vehicle_Detection_Tracking/blob/main/Detection_tracking_inference.ipynb).
 
 # Detection and Tracking results
 [![Vehicle Detection and Counting](clipped_joined_video.gif)](https://youtu.be/AisUbJo4vYQ)
